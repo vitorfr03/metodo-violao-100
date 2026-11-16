@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://metodoviolao100.net.br/sitemap.xml
