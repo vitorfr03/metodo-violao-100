@@ -62,9 +62,58 @@
     "priceCurrency": "BRL",
     "price": "299.60",
     "availability": "https://schema.org/InStock"
-  }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.9,
+    "bestRating": 5,
+    "worstRating": 1,
+    "ratingCount": 209
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Odirlei"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Professor muito atencioso e dedicado. Seus materiais são ótimos e de muita qualidade. Vale a pena cada centavo investido."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Danielli"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Vai direto ao ponto. As aulas são dinâmicas e objetivas com conteúdo que flui naturalmente fase após fase e você realmente aprende."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Antonio"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Maravilhoso o curso uma didática muito boa pra quem quer realmente aprender a tocar o instrumento, nota máxima pra todos os requisitos por ser um curso completo."
+    }
+  ]
 }
 </script>
+
 
 </head>
 <body>
@@ -115,11 +164,8 @@
         <div class="hero-grid">
           <div class="hero-content">
             <div class="hero-badge-group">
-              <span class="pill-badge pill-badge-green">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                </svg>
-                94% de Avaliações Positivas
+              <span class="pill-badge pill-badge-rating">
+                <span class="star-gold">★</span> 4,9/5 — 209 avaliações
               </span>
               <span class="pill-badge">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -128,7 +174,7 @@
                   <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                 </svg>
-                +2.700 Estudantes
+                +10.800 Estudantes
               </span>
             </div>
 
@@ -226,12 +272,12 @@
       <div class="container">
         <div class="stats-grid">
           <div class="stat-card">
-            <div class="stat-number text-amber">+2.700</div>
+            <div class="stat-number text-amber">+10.800</div>
             <div class="stat-label">Estudantes no Método</div>
           </div>
           <div class="stat-card">
-            <div class="stat-number text-emerald">94%</div>
-            <div class="stat-label">Avaliações Positivas</div>
+            <div class="stat-number text-amber">4,9 ★</div>
+            <div class="stat-label">209 Avaliações Verificadas</div>
           </div>
           <div class="stat-card">
             <div class="stat-number text-amber">100</div>
@@ -488,6 +534,87 @@
               <div class="audience-check-item">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
                 <span>Acesso pelo celular, tablet ou computador</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section" id="avaliacoes" aria-label="Avaliações Reais de Alunos">
+      <div class="container">
+        <div class="section-header" style="margin-bottom: 2.5rem;">
+          <span class="section-tag">Depoimentos Reais</span>
+          <h2 class="section-title">O que dizem os alunos do Método Violão 100</h2>
+          <p class="section-description">
+            Avaliações reais de quem já está aprendendo e evoluindo com as aulas e materiais do professor Arthur Endo.
+          </p>
+        </div>
+
+        <div class="reviews-verified-badge-wrapper">
+          <div class="reviews-verified-badge">
+            <svg class="verified-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <polyline points="9 12 11 14 15 10"></polyline>
+            </svg>
+            <span>Avaliações de alunos que adquiriram o curso pela Hotmart</span>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-box">
+            <div class="review-stars" aria-label="5 de 5 estrelas">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-text">
+              “Professor muito atencioso e dedicado. Seus materiais são ótimos e de muita qualidade. Vale a pena cada centavo investido.”
+            </p>
+            <div class="review-author">
+              <div class="author-avatar" aria-hidden="true">O</div>
+              <div class="author-info">
+                <span class="author-name">Odirlei</span>
+                <span class="author-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Aluno Verificado
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-box">
+            <div class="review-stars" aria-label="5 de 5 estrelas">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-text">
+              “Vai direto ao ponto. As aulas são dinâmicas e objetivas com conteúdo que flui naturalmente fase após fase e você realmente aprende.”
+            </p>
+            <div class="review-author">
+              <div class="author-avatar" aria-hidden="true">D</div>
+              <div class="author-info">
+                <span class="author-name">Danielli</span>
+                <span class="author-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Aluna Verificada
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-box">
+            <div class="review-stars" aria-label="5 de 5 estrelas">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-text">
+              “Maravilhoso o curso uma didática muito boa pra quem quer realmente aprender a tocar o instrumento, nota máxima pra todos os requisitos por ser um curso completo.”
+            </p>
+            <div class="review-author">
+              <div class="author-avatar" aria-hidden="true">A</div>
+              <div class="author-info">
+                <span class="author-name">Antonio</span>
+                <span class="author-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Aluno Verificado
+                </span>
               </div>
             </div>
           </article>
